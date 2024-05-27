@@ -8,7 +8,7 @@ import (
 	"net/url"
 )
 
-const spoonacularAPIKey = "d45b4919b0314ddd9b84ae94097a7431"
+const spoonacularAPIKey = "apiKey" // change it to you're own api Key if to work
 const spoonacularAPIURL = "https://api.spoonacular.com/recipes/findByIngredients"
 const spoonacularNutritionURL = "https://api.spoonacular.com/recipes/%d/nutritionWidget.json"
 
