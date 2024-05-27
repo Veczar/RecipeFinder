@@ -19,11 +19,11 @@ Recipe Finder is a command-line application that helps you find recipes based on
 - `--numberOfRecipes`: Maximum number of recipes to fetch (e.g., `--numberOfRecipes=5`).
 
 ## Examples
-Fetch recipes with tomatoes, eggs, and pasta as ingredients, and limit the result to 5 recipes:
+Fetch recipes with tomatoes, eggs, and pasta as ingredients, and limit the result to 1 recipe:
 
-`````./recipeFinder fetch --ingredients=tomatoes,eggs,pasta --numberOfRecipes=5 `````
+`````./recipeFinder fetch --ingredients=tomatoes,eggs,pasta --numberOfRecipes=1 `````
 or use this command in main directory
-````` go run main.go fetch --ingredients=tomatoes,eggs,pasta --numberOfRecipes=3 `````
+````` go run main.go fetch --ingredients=tomatoes,eggs,pasta --numberOfRecipes=1 `````
 
 ## Output
 The application will output a list of recipes, including:
